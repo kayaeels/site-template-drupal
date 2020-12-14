@@ -17,7 +17,9 @@ blacklist:
   - field.field.node.test_content.field_teaser_txt
   - language.content_settings.node.test_content
   - node.type.test_content
-graylist: {  }
+graylist:
+  - system.site
+  - '*'
 graylist_dependents: true
-graylist_skip_equal: false
-weight: 0
+graylist_skip_equal: true
+weight: 10
