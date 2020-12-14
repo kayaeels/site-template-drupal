@@ -1,10 +1,10 @@
 uuid: 736df961-5deb-40d1-a89f-6715038128b5
 langcode: en
-status: true
+status: false
 dependencies: {  }
 id: global
 label: Global
-description: ''
+description: '**Deprecated. Do not activate.**'
 folder: ../config/global
 module: {  }
 theme: {  }
