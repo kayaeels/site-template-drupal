@@ -22,4 +22,4 @@ graylist:
   - '*'
 graylist_dependents: true
 graylist_skip_equal: true
-weight: 10
+weight: 200
