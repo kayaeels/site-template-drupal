@@ -1,0 +1,23 @@
+uuid: fbc6b360-3bf0-4610-aeb6-b66a8d738adf
+langcode: en
+status: false
+dependencies: {  }
+id: test_magazine_article_feature
+label: 'Test Magazine Article Feature'
+description: ''
+folder: ../config/test_magazine_article_feature
+module: {  }
+theme: {  }
+blacklist:
+  - core.entity_form_display.node.magazine_article.default
+  - core.entity_view_display.node.magazine_article.default
+  - core.entity_view_display.node.magazine_article.teaser
+  - field.field.node.magazine_article.body
+  - field.field.node.magazine_article.field_teaser_image
+  - field.field.node.magazine_article.field_teaser_txt
+  - language.content_settings.node.magazine_article
+  - node.type.magazine_article
+graylist: {  }
+graylist_dependents: true
+graylist_skip_equal: false
+weight: 101

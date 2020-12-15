@@ -1,0 +1,23 @@
+uuid: a37f82ab-e0bf-4227-b0dc-c25c4662d418
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.magazine_article
+  module:
+    - text
+id: node.magazine_article.body
+field_name: body
+entity_type: node
+bundle: magazine_article
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

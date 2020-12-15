@@ -1,0 +1,11 @@
+uuid: 25e1f577-3ad9-4ee8-914e-afe74a0562e6
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.magazine_article
+id: node.magazine_article
+target_entity_type_id: node
+target_bundle: magazine_article
+default_langcode: site_default
+language_alterable: false
