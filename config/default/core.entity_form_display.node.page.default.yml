@@ -8,6 +8,7 @@ dependencies:
     - field.field.node.page.field_body_paragraphs
     - field.field.node.page.field_content_bottom
     - field.field.node.page.field_hero_content
+    - field.field.node.page.field_image
     - field.field.node.page.field_lead_formatted
     - field.field.node.page.field_left_sidebar_content
     - field.field.node.page.field_meta_tags
@@ -213,6 +214,13 @@ content:
       add_mode: button
       form_display_mode: default
       default_paragraph_type: _none
+    third_party_settings: {  }
+    region: content
+  field_image:
+    type: media_library_widget
+    weight: 28
+    settings:
+      media_types: {  }
     third_party_settings: {  }
     region: content
   field_lead_formatted:

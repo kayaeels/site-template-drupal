@@ -9,6 +9,7 @@ dependencies:
     - field.field.node.page.field_body_paragraphs
     - field.field.node.page.field_content_bottom
     - field.field.node.page.field_hero_content
+    - field.field.node.page.field_image
     - field.field.node.page.field_lead_formatted
     - field.field.node.page.field_left_sidebar_content
     - field.field.node.page.field_meta_tags
@@ -75,6 +76,7 @@ hidden:
   field_body_paragraphs: true
   field_content_bottom: true
   field_hero_content: true
+  field_image: true
   field_left_sidebar_content: true
   field_meta_tags: true
   field_sidebar_content: true
