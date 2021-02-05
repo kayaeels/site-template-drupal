@@ -3,7 +3,7 @@
 .alert-low {
 
     .callout {
-        margin-top: 40px;
+        margin-top: 0;
         margin-bottom: 0;
 
         @include breakpoint(large) {
@@ -38,7 +38,7 @@
     .callout {
         height: 60vh;
         padding: 10vh 3vh;
-        
+
         text-align: center;
         margin-bottom: 0;
         font-size: .7rem;
